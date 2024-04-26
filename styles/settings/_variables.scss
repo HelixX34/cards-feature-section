@@ -1,0 +1,49 @@
+// * -----
+// * FONTS
+// * -----
+
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url(../../assets/fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../../assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins-SemiBold";
+  src: url(../../assets/fonts/Poppins-SemiBold.ttf);
+}
+
+$fontLight: "Poppins-ExtraLight";
+$fontRegular: "Poppins-Regular";
+$fontBold: "poppins-SemiBold";
+
+// ----------------------------------------------------
+
+// * ------
+// * COLORS
+// * ------
+
+// ? PRIMARY
+
+$red: #ea5454;
+$cyan: #45d3d2;
+$orange: #fcae4a;
+$blue: #549ef2;
+
+// ? NEUTRALS
+
+$darkBlue: #4d4f62;
+$grayishBlue: #a3a5ae;
+$lightGrey: #fafafa;
+
+// ----------------------------------------------------
+
+// * ------
+// * MIXINS
+// * ------
+
+@mixin cardShadow {
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}

@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  color: $darkBlue;
+  text-align: center;
+
+  h1 {
+    font-family: $fontLight;
+    font-weight: 300;
+    font-size: 1.51rem;
+
+    span {
+      font-family: $fontBold;
+    }
+  }
+
+  p {
+    font-family: $fontRegular;
+    font-size: 0.95rem;
+    line-height: 167%;
+    opacity: 0.5;
+  }
+}
+
+// -----------------------------------
+
+// * -------------
+// * MEDIA QUERIES
+// * -------------
+
+// ? TABLETS
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 72%;
+
+    h1 {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+// ? DESCKTOP 1024px
+
+@media screen and (min-width: 1024px) {
+  header {
+    width: 55%;
+  }
+}
+
+// ? DESCKTOP 1440px
+
+@media screen and (min-width: 1440px) {
+  header {
+    width: 40%;
+  }
+}

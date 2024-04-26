@@ -1,0 +1,19 @@
+footer {
+  margin-top: 60px;
+
+  .attribution {
+    font-family: $fontRegular;
+    font-size: 0.8rem;
+    text-align: center;
+
+    a {
+      color: $cyan;
+      text-decoration: none;
+      transition: 0.2s ease;
+
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+}
